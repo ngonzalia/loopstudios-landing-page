@@ -59,6 +59,11 @@
   text-transform: uppercase;
   position: relative;
   z-index: 1;
+  // desktop xl
+  @media (min-width: 1440px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
 }
 
 .link {
