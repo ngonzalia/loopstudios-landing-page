@@ -1,0 +1,56 @@
+.our-creations {
+  margin: 96px auto;
+  position: relative;
+  // desktop xl
+  @media (min-width: 1440px) {
+    margin: 744px auto 184px auto;
+    width: 1115px;
+  }
+
+  &__cards {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    // desktop xl
+    @media (min-width: 1440px) {
+      margin-top: 80px;
+      gap: 30px;
+    }
+  }
+
+  &__btn {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    width: 157px;
+    height: 40px;
+    background: none;
+    border: 1px solid #000;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+      transition: .4s;
+    }
+    &-container {
+      margin-top: 34px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // desktop xl
+      @media (min-width: 1440px) {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        width: 157px;
+        height: 40px;
+      }
+    }
+  }
+}

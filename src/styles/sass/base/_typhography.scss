@@ -1,0 +1,68 @@
+// alata font
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+.alata {
+  font-family: 'Alata', sans-serif;
+}
+
+// josefin sans font
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+.josefin-sans {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+// weights
+.w-300 {
+  font-weight: 300;
+}
+.w-400 {
+  font-weight: 400;
+}
+
+
+// colors
+.white {
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+
+
+// font type
+.section-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  // desktop xl
+  @media (min-width: 1440px) {
+    text-align: start;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+.section-text {
+  font-size: .938rem;
+  line-height: 1.563rem;
+  text-align: center;
+  opacity: 0.5;
+  // desktop xl
+  @media (min-width: 1440px) {
+    text-align: start;
+  }
+}
+
+.card-title {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.link {
+  font-size: .938rem;
+  line-height: 1.563rem;
+  text-decoration: none;
+}

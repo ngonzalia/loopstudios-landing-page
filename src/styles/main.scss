@@ -1,0 +1,15 @@
+// base
+@import './sass/base/reset';
+@import './sass/base/typhography';
+@import './sass/base/classes';
+@import './sass/base/animations';
+
+// components
+@import './sass/components/nav';
+@import './sass/components/card';
+
+// layout
+@import './sass/layout/main';
+@import './sass/layout/interactive';
+@import './sass/layout/ourCreations';
+@import './sass/layout/footer';
